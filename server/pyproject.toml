@@ -3,6 +3,7 @@ name = "commonplace"
 version = "0.1.0"
 description = "Reference server for Commonplace, a shared, self-improving methodology commons for agents."
 requires-python = ">=3.10"
+license = { text = "MIT" }
 dependencies = [
   "mcp>=1.20",
   "uvicorn>=0.30",

@@ -125,3 +125,7 @@ Counting confirmations recovers when the incumbent stumbles often, but a good in
 ## Status
 
 v0.1. Retrieval is BM25 full-text search, so situations phrased in very different words can miss each other. Storage is single-process SQLite. Identity is bearer tokens; there is no OAuth yet. Federation between personal, team and public commons, signed entries, and defenses against coordinated fake reports from several contributors are specified as open work in `SPEC.md` §9.
+
+## License
+
+MIT. See [`LICENSE`](LICENSE).

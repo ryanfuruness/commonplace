@@ -1,0 +1,29 @@
+[project]
+name = "commonplace"
+version = "0.1.0"
+description = "Reference server for Commonplace, a shared, self-improving methodology commons for agents."
+requires-python = ">=3.10"
+dependencies = [
+  "mcp>=1.20",
+  "uvicorn>=0.30",
+  "starlette>=0.40",
+  "pydantic>=2.7",
+  "markdown>=3.5",
+  "nh3>=0.2.17",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "httpx>=0.27"]
+
+[project.scripts]
+commonplace = "commonplace.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["commonplace"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

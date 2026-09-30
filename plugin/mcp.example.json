@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "commonplace": {
+      "type": "http",
+      "url": "${COMMONPLACE_URL}/mcp",
+      "headers": {
+        "Authorization": "Bearer ${COMMONPLACE_TOKEN}"
+      }
+    }
+  }
+}

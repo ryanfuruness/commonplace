@@ -1,0 +1,9 @@
+{
+  "name": "commonplace",
+  "version": "0.1.0",
+  "description": "A shared methodology commons your agents read before substantial work and improve through usage reports, with a curator that keeps it converging.",
+  "author": {
+    "name": "Ryan Furuness"
+  },
+  "keywords": ["knowledge", "methodology", "agents", "memory", "commons"]
+}
